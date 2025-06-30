@@ -1,0 +1,20 @@
+# Core LangChain libraries
+langchain>=0.1.16
+langchain-community>=0.0.36
+
+# LLM Providers
+groq>=0.5.0         # For ChatGroq
+openai>=1.10.0      # Only if you want to support OpenAI as well
+
+# Embeddings + vector stores (optional, for RAG)
+chromadb>=0.4.24
+tiktoken>=0.5.1
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional for loading .txt/.md prompts
+markdown>=3.4.4
+
+# If you need file loading
+unstructured>=0.11.0

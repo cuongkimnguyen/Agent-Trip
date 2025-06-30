@@ -1,6 +1,8 @@
 from agents.assistant_agent import AssistantAgent
 
 def main():
+    print("Creating agent...")
+
     agent = AssistantAgent()
     while True:
         user_input = input("You: ")
